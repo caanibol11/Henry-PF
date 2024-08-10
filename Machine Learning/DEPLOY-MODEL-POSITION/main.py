@@ -4,7 +4,7 @@ from scipy.sparse import hstack
 import joblib
 import json
 
-# Cargar el modelo logístico y el scaler
+# Cargar el modelo de reggresión logística y el modelo scaler
 modelo_logistico = joblib.load('modelo_logistico.pkl')
 scaler = joblib.load('scaler.pkl')
 
