@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 from sklearn.impute import SimpleImputer
 import joblib
 
-# Cargar el modelo logístico y el scaler
+# Cargar el modelo logístico y SCALER
 model = joblib.load('model.pkl')
 app = Flask(__name__)
 
